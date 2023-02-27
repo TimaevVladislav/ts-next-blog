@@ -1,5 +1,6 @@
 import Link from "next/link"
 import Head from "next/head"
+import 'materialize-css/dist/css/materialize.min.css'
 
 export default function Home() {
   return (

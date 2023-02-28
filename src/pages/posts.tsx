@@ -43,7 +43,7 @@ export default function Posts({ posts: serverPosts }: any) {
     )
 }
 
-Posts.getInitialProps = async ({ req}: any) => {
+Posts.getInitialProps = async ({ req }: any) => {
 
     if (!req) {
         return { posts: null }

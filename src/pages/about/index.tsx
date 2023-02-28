@@ -11,8 +11,8 @@ export default function Index() {
         <Navigation title="About page">
             <h1>About page</h1>
 
-            <button onClick={linkClickHandler}>Go back to home</button>
-            <button onClick={() => Router.push("/posts")}>Go to posts</button>
+            <button className="btn" onClick={linkClickHandler}>Go back to home</button>
+            <button className="btn" onClick={() => Router.push("/posts")}>Go to posts</button>
         </Navigation>
     )
 }

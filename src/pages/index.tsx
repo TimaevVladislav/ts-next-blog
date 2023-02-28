@@ -1,4 +1,3 @@
-import Head from "next/head"
 import 'materialize-css/dist/css/materialize.min.css'
 
 import Navigation from "@/pages/components/Navigation"
@@ -7,11 +6,7 @@ import Section from "@/pages/components/Section"
 
 export default function Home() {
   return (
-    <Navigation>
-      <Head>
-          <title>Next blog</title>
-      </Head>
-
+    <Navigation title="Next blog">
       <Section />
       <Footer />
     </Navigation>

@@ -1,9 +1,13 @@
 import Link from "next/link"
 import {INavigationProps} from "@/pages/models/model"
+import Head from "next/head"
 
-export default function Navigation({ children }: INavigationProps) {
+export default function Navigation({ children, title }: INavigationProps) {
     return (
        <>
+           <Head>
+               <title>{title}</title>
+           </Head>
            <nav className="light-blue lighten-1" role="navigation">
                <div className="nav-wrapper container">
                    <a id="logo-container" href="#" className="brand-logo">Logo</a>

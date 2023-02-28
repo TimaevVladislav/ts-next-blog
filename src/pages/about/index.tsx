@@ -8,7 +8,7 @@ export default function Index() {
     }
 
     return (
-        <Navigation>
+        <Navigation title="About page">
             <h1>About page</h1>
 
             <button onClick={linkClickHandler}>Go back to home</button>

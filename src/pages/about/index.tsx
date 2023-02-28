@@ -9,10 +9,12 @@ export default function Index() {
 
     return (
         <Navigation>
-           <h1>About page</h1>
+          <div className="container">
+              <h1>About page</h1>
 
-           <button onClick={linkClickHandler}>Go back to home</button>
-           <button onClick={() => Router.push("/posts")}>Go to posts</button>
+              <button onClick={linkClickHandler}>Go back to home</button>
+              <button onClick={() => Router.push("/posts")}>Go to posts</button>
+          </div>
         </Navigation>
     )
 }

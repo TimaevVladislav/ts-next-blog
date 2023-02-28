@@ -9,6 +9,11 @@ export default function Navigation({ children }: INavigationProps) {
                    <a id="logo-container" href="#" className="brand-logo">Logo</a>
                    <ul className="right hide-on-med-and-down">
                        <li>
+                           <Link href="/">
+                               Home
+                           </Link>
+                       </li>
+                       <li>
                            <Link href="/about">
                                About
                            </Link>
@@ -38,7 +43,7 @@ export default function Navigation({ children }: INavigationProps) {
                    </a>
                </div>
            </nav>
-           <main>
+           <main className="container">
                {children}
            </main>
        </>
